@@ -4,6 +4,7 @@ import React from 'react'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
+import fetchAuth from '../../lib/fetchAuth'
 
 export default function CustomersList() {
 
